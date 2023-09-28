@@ -11,3 +11,4 @@ def txt_importer(path_file):
             error_message = f"Arquivo {path_file} não encontrado"
             return print(error_message, file=sys.stderr)
     return print("Formato inválido", file=sys.stderr)
+# push
